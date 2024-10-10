@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/66fe617f3725705d432c04a1
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Shiv Shakti Singh" ,
+    "subscribedToChannel":"Here"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/66fe617f3725705d432c04a9
+
+###
+PATCH http://localhost:3000/subscribers/66fe61e7c55ee034eee723cf
+Content-Type: application/json
+
+{
+    "name":"Shiv12321 Shakti Singh" ,
+    "subscribedToChannel":"Hsdfsdere"
+}
